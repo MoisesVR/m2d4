@@ -50,8 +50,12 @@
   padding: $card-spacer-y $card-spacer-x;
   color: $card-color;
 }
+.card-title-color{
+  color: $purple;
+}
 
 .card-title {
+  @extend .card-title-color;
   margin-bottom: $card-title-spacer-y;
 }
 
